@@ -1,6 +1,6 @@
 ---
 name: freelancing-workflow
-description: Run a conservative semi-automated freelancing workflow for small, well-defined client tasks. Use when screening freelance jobs, deciding whether to engage, drafting concise professional replies, enforcing pricing/scope gates, managing delivery, handling bounded aftercare, and capturing lessons for future work.
+description: Run a conservative semi-automated freelancing workflow for small, well-defined client tasks. Use when screening freelance jobs, deciding whether to engage, drafting concise professional replies, enforcing pricing and scope gates, managing delivery, handling bounded aftercare, and capturing lessons for future work.
 ---
 
 # Freelancing Workflow
@@ -63,6 +63,13 @@ Do all of the following:
 - score the task
 - decide: recommend, clarify, or reject
 
+Use:
+- `references/workflow-overview.md`
+- `references/screening-rules.md`
+- `references/job-hunting-rhythm.md`
+- `templates/project-screening-summary.md`
+- `templates/project-record.md`
+
 ### 2. Communication
 
 Only after user approval.
@@ -74,6 +81,11 @@ Keep communication:
 - honest
 - non-committal when scope is unclear
 
+Use:
+- `templates/first-contact.md`
+- `templates/clarification-questions.md`
+- `templates/rejection.md`
+
 ### 3. Price Confirmation
 
 Only confirm pricing after scope and deliverables are clear.
@@ -81,6 +93,9 @@ Only confirm pricing after scope and deliverables are clear.
 - do not hard-quote ambiguous work
 - do not overpromise timing
 - prefer small bounded scope
+
+Use:
+- `templates/price-and-scope.md`
 
 ### 4. Start Work
 
@@ -90,6 +105,9 @@ Before execution:
 - confirm user approval
 - confirm no new risks appeared
 
+Use:
+- `references/checklists.md`
+
 ### 5. Ongoing Communication and Delivery
 
 - report meaningful changes early
@@ -97,11 +115,19 @@ Before execution:
 - validate before delivery
 - require user confirmation before final external delivery
 
+Use:
+- `references/checklists.md`
+- `references/failure-handling.md`
+
 ### 6. Aftercare
 
 Treat aftercare as bounded support for the original scope only.
 
 If the request changes task nature, re-run intake instead of treating it as aftercare.
+
+Use:
+- `templates/aftercare-boundary.md`
+- `references/checklists.md`
 
 ### 7. Review
 
@@ -111,6 +137,10 @@ Record what happened, including:
 - whether scope drift occurred
 - whether the client showed warning signs
 - whether the original judgment was accurate
+
+Use:
+- `references/review-and-lessons.md`
+- `templates/project-record.md`
 
 ### 8. Close the Objective
 
@@ -123,17 +153,23 @@ A task is closed only when it is either:
 
 Extract at least one reusable lesson and decide whether templates, checklists, scoring, or boundaries should change.
 
+Use:
+- `references/review-and-lessons.md`
+- `templates/project-record.md`
+
 ## Directory Guide
 
 - `templates/` → message and reporting templates
 - `references/` → rules, checklists, scoring, and boundaries
+- `../../reviews/freelancing/` → optional run records and project reviews
 
-## First Files to Consult
+## Suggested Run Discipline
 
-- `references/workflow-overview.md`
-- `references/screening-rules.md`
-- `references/checklists.md`
-- `templates/project-screening-summary.md`
+- keep candidate reports compact
+- prefer no candidate over weak candidates
+- log meaningful decisions
+- keep project records reusable
+- tighten the system whenever the same failure pattern appears twice
 
 ## External Action Gates
 
